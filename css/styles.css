@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: azure;
+}
+
+.ticketBox {
+  min-height: 300px;
+  min-width: 300px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+  outline-width: 3px;
+  outline-style: solid;
+  outline-color: midnightblue;
+  display: flex;
+  justify-content: center;
+}
+
+.innerText {
+  min-height: 300px;
+  min-width: 300px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.titleText {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: midnightblue;
+  margin-top: 20px;
+}
+
+.instructionText {
+  margin: 10px;
+}
+
+.inputText {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btnDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  width: 80%;
+  height: 50px;
+  background-color: midnightblue;
+  margin-top: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.finalMessage {
+  width: 100%;
+  text-align: center;
+  color: #191970;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
